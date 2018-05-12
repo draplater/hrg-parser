@@ -1,0 +1,43 @@
+ADJP    right     ADJP/JJ 
+
+ADVP right  ADVP/AD 
+
+CP   right  CP/IP 
+
+DNP  right  DNP/DEG 
+
+DP    left  DP/DT 
+
+INTJ  left  INTJ/IJ 
+
+IP   right  IP/VP 
+
+LCP  right  LCP/LC 
+
+NP   right  NP/NN/NT/NR/QP 
+
+PP    left  PP/P 
+
+QP   right  QP/CD/OD 
+
+VP   right  VP/VA/VC/VE/VV/BA/LB/VCD  /VSB/VRD/VNV/VCP 
+
+VV   right  VV 
+
+VA   right  VA 
+
+VE   right  VE 
+
+VC   right  VC 
+
+VCD  right  VCD/VV/VA/VC/VE 
+
+VRD  right  VRD/VV/VA/VC/VE 
+
+VSB  right  VSB/VV/VA/VC/VE 
+
+VCP  right  VCP/VV/VA/VC/VE 
+
+VNV  right  VNV/VV/VA/VC/VE 
+
+UCP right null

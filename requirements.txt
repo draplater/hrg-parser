@@ -1,0 +1,6 @@
+dynet
+cython
+cffi
+attrs
+six
+namedlist

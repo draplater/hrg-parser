@@ -1,0 +1,275 @@
+0 AD                  ; adverb 
+
+0 AS                  ; aspect   marker 
+
+0 BA                  ; the  word  ``ba''   in ba-construction 
+
+0 CC       CONJ       ; coordinating    conjunction 
+
+0 CD                  ; cardinal   number 
+
+0 CS                  ; subordinating    conjunction 
+
+0 DEC                 ; the  word  ``de''   in a relative   clause 
+
+0 DEG                 ; associative    ``de'' 
+
+0 DER                 ; the  word  ``de''   in V-de  and  V-de-R  constructions 
+
+0 DEV                 ; the  word  ``de''  before   a VP 
+
+0 DT                  ; determiner 
+
+0 ETC                 ; for  the  words  ``deng''   and  ``dengdeng'' 
+
+0 FW                  ; foreign   word 
+
+0  IJ                 ; interjection 
+
+0  JJ                 ; other  noun-modifier 
+
+0 LB                  ; the  word  ``bei''   in long  bei-construction 
+
+0 LC                  ; localizer 
+
+0 M                   ; measure   word 
+
+0 MSP                 ; miscellaneous    particle 
+
+0 NN                  ; common   noun 
+
+0 NR                  ; proper   noun 
+
+0 NT                   ; temporal   noun 
+
+0  OD                  ; ordinal   number 
+
+0  ON                  ; onomatopoeia 
+
+0 P                    ; preposition 
+
+0 PN                   ; pronoun 
+
+0 PU   PU/IGNORE       ; punctuation    mark 
+
+0  SB                  ; the  word   ``bei''   in short   bei-construction 
+
+0  SP                  ; sentence-final     particle 
+
+0 VA                   ; predicative    adjective 
+
+0 VC                   ; copula 
+
+0 VE                   ; the  word   ``you''   as a  main  verb 
+
+0 VV                   ; other   verb 
+
+0 X                    ; unknown 
+
+0  -LRB-  PU/IGNORE    ; left  round   bracket 
+
+0  -RRB-  PU/IGNORE    ; right   round  bracket 
+
+0  -LCB-  PU/IGNORE    ; left   curly  bracket 
+
+0  -RCB-  PU/IGNORE    ; right   curly  bracket 
+
+0  -LSB-  PU/IGNORE    ; left   square  bracket 
+
+0  -RSB-  PU/IGNORE    ; right   square  bracket 
+
+1 ADJP                 ; adjective    phrase 
+
+1 ADVP                 ; adverbial    phrase 
+
+1  CLP                 ; classifier    phrase 
+
+1  CP                  ; clause   headed   by  complementizer 
+
+1 DNP                  ; phrase   formed   by  ``XP  + DEG'' 
+
+1 DP                   ; determiner    phrase 
+
+1 DVP                  ; phrase   formed   by  ``XP  + DEV'' 
+
+1 FRAG                 ; fragment 
+
+1  INTJ                ; interjection    phrase 
+
+1  IP                  ; simple   clause 
+
+1 LCP                  ; phrase   formed   by  ``XP  + LC'' 
+
+1 LST                ; list  marker 
+
+1 NP                 ; noun  phrase 
+
+1 PP                 ; preposition   phrase 
+
+1 PRN     PRN        ; parenthetical 
+
+1 QP                 ; quantifier   phrase 
+
+1 UCP     UCP        ; unlike   coordinated  phrase 
+
+1 VCD                ; coordinated   verb  compound 
+
+1 VCP                ; verb  compounds   formed  by VV  + VC 
+
+1 VNV                ; verb  compounds   formed  by A-not-A   or A-one-A 
+
+1 VP                 ; verb  phrase 
+
+1 VPT                ; potential   form  V-de-R  or V-bu-R 
+
+1 VRD                ; verb  resultative   compound 
+
+1 VSB                ; verb  compounds   formed  by a  modifier  plus  a head 
+
+1 WHNP               ; wh-noun   phrase 
+
+1 WHPP               ; wh-preposition    phrase 
+
+2 -NONE-             ; empty  category 
+
+2 *OP*               ; operator 
+
+2 *pro*              ; dropped   argument 
+
+2 *PRO*              ; arbitrary   PRO,  controlled   PRO 
+
+2 *RNR*              ; right  node  raising 
+
+2 *T*   BUILDMC      ; trace  of  A'-movement 
+
+2 *?*   ELLIPSIS     ; ellipsis 
+
+2 *                  ; trace  of  A-movement 
+
+3 FW                 ; foreign   word 
+
+3 ADV   ADJUNCT      ; adverbial 
+
+3 APP                ; appositive 
+
+3 BNF                ; beneficiary 
+
+3 CND                ; condition 
+
+3 DIR                ; direction 
+
+3 EXT                ; extent 
+
+3 FOC                       ;  focus 
+
+3 HLN                       ;  headline 
+
+3 IJ                        ;  interjectional 
+
+3 IMP                       ;  imperative 
+
+3 IO                        ;  indirect      object 
+
+3 LGS                       ;  logic     subject 
+
+3 LOC                       ;  locative 
+
+3 MNR                       ;  manner 
+
+3 OBJ                       ;  direct     object 
+
+3 PN                        ;  proper     name 
+
+3 PRD                       ;  predicate 
+
+3 PRP                       ;  purpose      or  reason 
+
+3 Q                         ;  question 
+
+3 SBJ                       ;  subject 
+
+3 SHORT                     ;  short    form 
+
+3 TMP                       ;  temporal 
+
+3 TPC                       ;  topic 
+
+3 TTL                       ;  title 
+
+3 WH                        ;  wh-phrase 
+
+4 *OP*                      ;  operator 
+
+4 *pro*                     ;  dropped      argument 
+
+4 *PRO*                     ;  arbitrary       PRO,    controlled       PRO 
+
+4 *RNR*                     ;  right    node    raising 
+
+4 *T*                       ;  trace    of   A'-movement 
+
+4 *?*                       ;  ellipsis 
+
+4 *                         ;  trace    of   A-movement 
+
+1 ADV : adverbial modifier                => ADJUNCT 
+
+1 AMOD :ajectival modifier                => ADJUNCT 
+
+1 APP : appositive                        => ADJUNCT 
+
+1 AUX : auxiliary                         => ADJUNCT 
+
+1 BNF : beneficiary                       => ADJUNCT 
+
+1 CJT : conjunct
+
+1 CJTN : conjunction
+
+1 CND : conditional modifier              => ADJUNCT 
+
+1 COMP : complement                       => ARGUMENT 
+
+1 DIR : direction                         => ADJUNCT 
+
+1 DMOD : determiner modifier              => ADJUNCT 
+
+1 EXT : extent                            => ARGUMENT 
+
+1 FOC : focus                             => ARGUMENT ;; subject of adjective
+
+1 IO : indirect object                   => ARGUMENT 
+
+1 LGS : logical subject                  => ADJUNCT ;; very often together with a preposition
+
+1 LOC : location                         => ADJUNCT 
+
+1 MNR : manner                           => ADJUNCT 
+
+1 NMOD : nominal modifier                => ADJUNCT 
+
+1 OBJ : object                           => ARGUMENT 
+
+1 PRD : predicate                        => ARGUMENT ;; Object of "是" 
+
+1 PRP : purpose                          => ADJUNCT 
+
+1 PRT : particle                         => ARGUMENT ;; 标注本身不尽合理，即便是做动补结构，也是影响了配价情况的，故选为ARGUMENT
+
+1 RELC (RELATIVE) : relative clause       => ADJUNCT ;; "的"字短语，做定语
+
+1 RELATIVE : relative clause       => ADJUNCT ;; "的"字短语，做定语
+
+1 ROOT : root
+
+1 SBJ : subject                          => ARGUMENT 
+
+1 TMP : temporal modifier                => ADJUNCT 
+
+1 TPC : topic                            => ARGUMENT 
+
+1 UNK : unknown
+
+1 VOC : vocalizer                        => ADJUNCT ;; 多为，主谓谓语句的主语
+
+1 cCJTN : additional coordinating conjunction

@@ -1,0 +1,245 @@
+0 JJ                ; adjective 
+
+0 JJR               ; comparative  adjective 
+
+0 JJS               ; superlative  adjective 
+
+0 RB                ; adverb 
+
+0 RBR               ; comparative  adverb 
+
+0 RBS               ; superlative  adverb 
+
+0 WRB               ; wh-adverb  (e.g., the word  ``how'') 
+
+0 DT                ; determiner 
+
+0 PDT               ; predeterminer  (e.g.,  ``all'' in  ``all his marbles'') 
+
+0 WDT               ; wh-determiner  (e.g., the  word ``which'') 
+
+0 CD                ; cardinal number 
+
+0 CC  CONJ          ; coordinating  conjunction 
+
+0 NN                ; singular or  mass common  noun 
+
+0 NNS               ; plural common  noun 
+
+0 NNP               ; singular proper  noun 
+
+0 NNPS              ; plural proper  noun 
+
+0 POS               ; possessive  ending 
+
+0 PRP               ; personal pronoun 
+
+0 PRP$              ; possessive  pronoun 
+
+0 WP                ; wh-pronoun 
+
+0 WP$               ; possessive  wh-pronoun  (e.g., the word  ``whose'') 
+
+0 MD                ; modal verb 
+
+0 VB                ; base form  of a verb 
+
+0 VBP               ; present tense  verb, other  than 3rd  person singular 
+
+0 VBZ               ; present tense  verb, 3rd  person singular 
+
+0 VBN               ; past participle 
+
+0 VBD               ; past tense  verb 
+
+0 VBG               ; gerund or present  participle 
+
+0 TO                ; the word  ``to'' 
+
+0 IN                ; preposition  or subordinating  conjunction 
+
+0 RP                ; particle  (e.g., ``up''  in ``pick up'') 
+
+0 LS                ; list item marker 
+
+0 UH                ; exclamation 
+
+0 EX                ; existential  ``there'' 
+
+0 FW                ; foreign word 
+
+0 SYM               ; symbol 
+
+0 ,  PU/IGNORE      ; comma 
+
+0 .  PU/IGNORE      ; period 
+
+0 :  PU/IGNORE      ; colon 
+
+0 $                 ; dollar sign 
+
+0 `` PU/IGNORE      ; left double  quotation mark 
+
+0 '' PU/IGNORE      ; right double  quotation mark 
+
+0 #                 ; pound sign 
+
+0 -LRB-  PU/IGNORE  ; left round  bracket 
+
+0 -RRB-  PU/IGNORE  ; right round  bracket 
+
+0 -LCB-  PU/IGNORE  ; left curly  bracket 
+
+0 -RCB-  PU/IGNORE  ; right curly  bracket 
+
+0 -LSB-  PU/IGNORE  ; left square  bracket 
+
+0 -RSB-  PU/IGNORE  ; right square  bracket 
+
+0 ;      CONJ       ; semicolon 
+
+0 -- PU/IGNORE      ; dash 
+
+0 ... PU/IGNORE     ; ellipsis mark 
+
+0 -   PU/IGNORE     ; hyphen 
+
+0 '   PU/IGNORE     ; single quotation  mark 
+
+1  S                ; simple declarative  clause 
+
+1  SQ               ; inverted yes/no  question 
+
+1  SBAR             ; clause introduced  by a  subordinating  conjunction 
+
+1  SBARQ            ; direct question  introduced  by a wh-word  or wh-phrase 
+
+1  SINV             ; inverted declarative  sentence 
+
+1  ADJP             ; adjective phrase 
+
+1  ADVP            ; adverb phrase 
+
+1  CONJP           ; conjunction  phrase 
+
+1  FRAG            ; fragment 
+
+1  INTJ            ; interjection 
+
+1  LST             ; list marker 
+
+1  NAC             ; ``not a  constituent'', used within  a noun phrase 
+
+1  NP              ; noun phrase 
+
+1  NX              ; used within  certain complex noun  phrases 
+
+1  PP              ; prepositional  phrase 
+
+1  PRN  PRN        ; parenthetical 
+
+1  PRT             ; particle 
+
+1  QP              ; quantifier  phrase 
+
+1  RRC             ; reduced relative  clause 
+
+1  UCP  UCP        ; unlike coordinated  phrase 
+
+1  VP              ; verb phrase 
+
+1  WHADJP          ; wh-adjective  phrase 
+
+1  WHADVP          ; wh-adverb  phrase 
+
+1  WHNP            ; wh-noun phrase 
+
+1  WHPP            ; wh-prepositional  phrase 
+
+1  X               ; unknown, uncertain,  or unbracketable 
+
+2 -NONE-           ; empty category 
+
+2 *T*    BUILDMC   ; trace of  A'-movement 
+
+2 *                ; arbitrary  PRO, controlled PRO,  and trace of A-movement 
+
+2 *NP*             ; arbitrary  PRO, controlled PRO 
+
+2 *PAS*            ; trace of  A-movement 
+
+2 *PPA*            ; permanent  predictable ambiguity 
+
+2 *U*              ; unit 
+
+2 *NOT*            ; anti-placeholder  in template  mapping 
+
+2 0                ; the null  complementizer 
+
+2 *?*    ELLIPSIS  ; placeholder  for ellipsed material 
+
+2 *RNR*  BUILDMC   ; right node  raising 
+
+2 *ICH*  BUILDMC   ; ``interpret  constituent here''  (discontinuous dependency) 
+
+2 *EXP*  BUILDMC   ; expletive  (extraposition) 
+
+3  ADV   ADJUNCT   ; adverbial 
+
+3  NOM             ; nominal 
+
+3  DTV   ARGUMENT  ; dative 
+
+3  LGS             ; logical  subject 
+
+3  PRD   HEAD      ; predicate 
+
+3  PUT   ARGUMENT  ; marks the  locative complement  of the word ``put'' 
+
+3  SBJ   ARGUMENT  ; surface  subject 
+
+3  TPC   ADJUNCT   ; topicalized  element 
+
+3  VOC   ADJUNCT   ; vocative 
+
+3  BNF             ; benefactive 
+
+3  DIR   ADJUNCT   ; direction 
+
+3  EXT   ADJUNCT   ; extent 
+
+3  LOC   ADJUNCT   ; locative 
+
+3  MNR   ADJUNCT   ; manner 
+
+3  PRP   ADJUNCT   ; purpose or  reason 
+
+3  TMP   ADJUNCT   ; temporal 
+
+3  CLR   ADJUNCT   ; closely related 
+
+3  CLF             ; cleft 
+
+3  HLN             ; headline 
+
+3  TTL             ; title 
+
+4  *T*             ; trace of A'-movement 
+
+4  *               ; arbitrary  PRO, controlled PRO,  and trace of A-movement 
+
+4  0               ; the null  complementizer 
+
+4  *U*             ; unit 
+
+4  *?*             ; placeholder  for ellipsed material 
+
+4  *NOT*           ; anti-placeholder  in template mapping 
+
+4  *RNR*           ; right node  raising 
+
+4   *ICH*            ; ``interpret   constituent  here''   (discontinuous  dependency) 
+
+4   *EXP*            ; expletive   (extraposition) 
+
+4   *PPA*            ; permanent  predictable   ambiguity 

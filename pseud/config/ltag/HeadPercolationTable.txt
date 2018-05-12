@@ -1,0 +1,57 @@
+S         right      VP/SBAR/S 
+
+SINV      right      VP/SINV 
+
+SQ        right      VP/SQ 
+
+SBAR      right      S/SBAR/SINV 
+
+SBARQ     right      SQ/SBARQ 
+
+RRC       right      VP/RRC 
+
+NX        right      NX/NN/NNS/NNP/NNPS 
+
+NP        right      NP/NN/NNS/NNP/NNPS/NX/EX/CD/QP/JJ/JJR/JJS/PRP/DT/POS 
+
+NAC       right      NAC/NN/NNS/NNP/NNPS/NX 
+
+WHNP      right      WDT/WP/NP/NN/NNS/NNP/NNPS/NX/WHNP 
+
+QP        right      CD/QP 
+
+ADJP      right      JJ/JJR/VBN/ADJP/*?* 
+
+WHADJP    right      JJ/WHADJP 
+
+VP        right      VP/VB/VBN/VBP/VBZ/VBG/VBD/*?* 
+
+PP        left       IN/TO/VBG/PP 
+
+WHPP      left       IN/WHPP 
+
+ADVP      right      ADVP/RB/RBR/RBS/WRB 
+
+WHADVP    right      WRB/WHADVP 
+
+PRT       right      RP/PRT 
+
+INTJ      left       UH/INTJ 
+
+UCP       right      UCP 
+
+X         right      X 
+
+LST       left       LS 
+
+ROOT left S
+
+PRN right VP/SBAR/S 
+
+FRAG right VP/SBAR/S
+
+CONJP right null
+
+NML right NP/NN/NNS/NNP/NNPS/NX/EX/CD/QP/JJ/JJR/JJS/PRP/DT/POS/NML
+
+JJP right JJ/JJR/VBG/VBN/RBR/JJP
